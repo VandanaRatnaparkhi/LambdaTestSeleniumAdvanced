@@ -98,7 +98,7 @@ public class SeleniumAdvanced {
 
 		driver.switchTo().window(currentWindowHandle);
 		//Step 11
-        windowHandles.addAll(driver.getWindowHandles());
+		windowHandles.addAll(driver.getWindowHandles());
 		System.out.println("Size of Current window count "+ windowHandles.size());
 
 		//Step 12
@@ -124,7 +124,7 @@ public class SeleniumAdvanced {
 		Map<String, Object> ltOptions = new HashMap<>();
 		ltOptions.put("user", "vandana.dac");
 		ltOptions.put("accessKey", "6LmjgiLCs7xIRicqdppg12MV5FhJG47m4O6XIy4sxgCWr2Fng7");
-		ltOptions.put("build", "LambdaTestCertification_SeleniumAdvanced_Vivek");
+		ltOptions.put("build", "LambdaTestCertification_SeleniumAdvanced_Vandana");
 		ltOptions.put("name", this.getClass().getName());
 		ltOptions.put("platformName", platFormName);
 		ltOptions.put("seCdp", true);
